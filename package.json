@@ -1,0 +1,24 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "nafey",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.15.0",
+    "@tensorflow/tfjs-converter": "^3.15.0",
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "module": "^1.2.5",
+    "moment": "^2.29.1",
+    "requirejs": "^2.3.6",
+    "socket.io": "^4.2.0"
+  }
+}
